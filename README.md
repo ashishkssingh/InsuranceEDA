@@ -1,21 +1,20 @@
 # **Exploratory Data Analysis - Glass Classification Dataset**
-Day 7 of 100 Days of Exploratory Data Analysis
+Day 8 of 100 Days of Exploratory Data Analysis
 
 ## **Content**
-The data is technical spec of cars. The dataset is downloaded from UCI Machine Learning Repository
+Machine Learning with R by Brett Lantz is a book that provides an introduction to machine learning using R. As far as I can tell, Packt Publishing does not make its datasets available online unless you buy the book and create a user account which can be a problem if you are checking the book out from the library or borrowing the book from a friend. All of these datasets are in the public domain but simply needed some cleaning up and recoding to match the format in the book.
 
-Source : [https://www.kaggle.com/uciml/autompg-dataset](https://www.kaggle.com/uciml/autompg-dataset)
+Source : [https://www.kaggle.com/mirichoi0218/insurance](https://www.kaggle.com/mirichoi0218/insurance)
 
 ## **Features:**
 
-1. cylinders: multi-valued discrete
-2. displacement: continuous
-3. horsepower: continuous
-4. weight: continuous
-5. acceleration: continuous
-6. model year: multi-valued discrete
-7. origin: multi-valued discrete
-8. car name: string (unique for each instance)
+1. age: age of primary beneficiary
+2. sex: insurance contractor gender.
+3. bmi: Body mass index.
+4. children: Number of children covered by health insurance /Number of dependents
+5. smoker: Smoking
+6. region: the beneficiary's residential area in the US, northeast, southeast, southwest, northwest.
+
 
 ## **Target**
- - mpg: continuous
+ - charges: Individual medical costs billed by health insurance
